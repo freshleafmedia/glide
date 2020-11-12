@@ -42,6 +42,7 @@ class Encode extends BaseManipulator
     public function getFormat(Image $image)
     {
         $allowed = [
+            'avif' => 'image/avif',
             'gif' => 'image/gif',
             'jpg' => 'image/jpeg',
             'pjpg' => 'image/jpeg',
